@@ -1,0 +1,26 @@
+@media (max-width:600px){
+    .seccion1{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding-top: 200px;
+    }
+    .brillos{
+        display: none;
+    }
+    .seccion1 .hijo1{
+        text-align: center;
+    }
+    .seccion1 .hijo2{
+        width: 70%;
+    }
+    .seccion1 .botones{
+        justify-content: center;
+    }
+    .seccion1 .texto1{
+        position: absolute;
+        top: 38%;
+        left: 16%;
+    }
+}

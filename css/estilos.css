@@ -1,0 +1,53 @@
+.abuelo{
+    background-color: black;
+}
+img{
+    width: 100%;
+}
+.gradient{
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: -webkit-linear-gradient(180deg, rgba(250,134,255,1) 0%, rgba(0,254,255,0.6643032212885154) 97%);
+}
+
+.seccion1 .hijo1 h1, .seccion1 .hijo1 p{
+    color: white;
+}
+.seccion1 .botones{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+.seccion1 .textos{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.seccion1 .hijo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.seccion1 .hijo2{
+    position: relative;
+    background-image: url('../img/fondo.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    -webkit-mask-image: linear-gradient(to top, transparent 1%, black);
+}
+.seccion1 .hijo2 .imagen1{
+    /* mask-image: linear-gradient(black, transparent);
+    -webkit-mask-image: linear-gradient(black, transparent); */
+}
+
+.seccion1 .brillos{
+    position: absolute;
+    top: 30%;
+}
+.seccion1 .boton1{
+    background:-webkit-linear-gradient(180deg, rgba(250,134,255,1) 0%, rgba(0,254,255,0.6643032212885154) 97%);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
